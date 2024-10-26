@@ -1,0 +1,16 @@
+{
+  "name": "theodinproject",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+		"checklint": "semistandard *.{js,cjs} *\/**\/*.{js,cjs}",
+		"fixlint": "semistandard *.{js,cjs} *\/**\/*.{js,cjs} --fix"
+  },
+  "author": "Idris Adebowale",
+  "license": "ISC",
+  "dependencies": {
+    "semistandard": "^17.0.0"
+  }
+}
